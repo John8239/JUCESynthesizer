@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="gDOldy" name="SynthFramework" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              headerPath="C:\Users\John\Dev\Libraries\Maximilian">
+  <MAINGROUP id="aLWiy5" name="SynthFramework">
+    <GROUP id="{14F67E76-3B00-18D1-CEA8-3108C734740D}" name="Source">
+      <FILE id="NnPV3B" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="NmQc1l" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="pD7mfU" name="Envelope.cpp" compile="1" resource="0" file="Source/Envelope.cpp"/>
+      <FILE id="GLucnO" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
+      <FILE id="pFR41X" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="fckZEz" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="ZiReqw" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="RRA5Yi" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <GROUP id="{1B4BFD29-2A0D-7170-9150-92B77BCC409D}" name="Maximilian">
+        <GROUP id="{2CEA30D4-736F-AE4A-C344-25B2DC70802D}" name="libs">
+          <GROUP id="{ECD42622-5A59-4AD6-33E8-651B7939FCAC}" name="PolyBLEP">
+            <FILE id="XB8iNv" name="PolyBLEP.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/PolyBLEP/PolyBLEP.cpp"/>
+            <FILE id="oJUkFD" name="PolyBLEP.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/PolyBLEP/PolyBLEP.h"/>
+            <FILE id="KAWW5R" name="README.md" compile="0" resource="1" file="../../../../Dev/Libraries/Maximilian/libs/PolyBLEP/README.md"/>
+          </GROUP>
+          <FILE id="gbHnzK" name="fft.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/fft.cpp"/>
+          <FILE id="AzP8nK" name="fft.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/fft.h"/>
+          <FILE id="GVPaCW" name="maxiAtoms.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiAtoms.cpp"/>
+          <FILE id="o3Gzkn" name="maxiAtoms.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiAtoms.h"/>
+          <FILE id="qi5XAa" name="maxiBark.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiBark.cpp"/>
+          <FILE id="rISIBV" name="maxiBark.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiBark.h"/>
+          <FILE id="HvxLuB" name="maxiClock.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiClock.cpp"/>
+          <FILE id="uNXEbo" name="maxiClock.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiClock.h"/>
+          <FILE id="bHlkeg" name="maxiConvolve.cpp" compile="1" resource="0"
+                file="../../../../Dev/Libraries/Maximilian/libs/maxiConvolve.cpp"/>
+          <FILE id="kUQ21A" name="maxiConvolve.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiConvolve.h"/>
+          <FILE id="XQKdbr" name="maxiFFT.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiFFT.cpp"/>
+          <FILE id="BLFOwm" name="maxiFFT.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiFFT.h"/>
+          <FILE id="qaUIO5" name="maxiGrains.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiGrains.cpp"/>
+          <FILE id="ji1jMD" name="maxiGrains.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiGrains.h"/>
+          <FILE id="UdEe4V" name="maxim.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxim.h"/>
+          <FILE id="bjDaKq" name="maxiMFCC.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiMFCC.cpp"/>
+          <FILE id="BdTWBf" name="maxiMFCC.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiMFCC.h"/>
+          <FILE id="vZl96j" name="maxiPolyBLEP.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiPolyBLEP.h"/>
+          <FILE id="IifWkb" name="maxiReverb.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiReverb.cpp"/>
+          <FILE id="xp7Ht3" name="maxiReverb.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/maxiReverb.h"/>
+          <FILE id="xiuoAm" name="sineTable.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/sineTable.h"/>
+          <FILE id="u0sT1K" name="stb_vorbis.c" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/stb_vorbis.c"/>
+          <FILE id="cVT57y" name="stb_vorbis.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/libs/stb_vorbis.h"/>
+        </GROUP>
+        <FILE id="qs3jum" name="maximilian.cpp" compile="1" resource="0" file="../../../../Dev/Libraries/Maximilian/maximilian.cpp"/>
+        <FILE id="JOxLzE" name="maximilian.h" compile="0" resource="0" file="../../../../Dev/Libraries/Maximilian/maximilian.h"/>
+      </GROUP>
+      <FILE id="dwOdsM" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="QrC0OP" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="c7D7aM" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="zBXSzs" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SynthFramework" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SynthFramework"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
